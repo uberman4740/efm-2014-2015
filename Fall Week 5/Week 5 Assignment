@@ -1,0 +1,253 @@
+{
+ "metadata": {
+  "name": "",
+  "signature": "sha256:c47f42e8a8fcdeff45d306ae47660554d6907d06d1d19db4b97f720dc2ecb365"
+ },
+ "nbformat": 3,
+ "nbformat_minor": 0,
+ "worksheets": [
+  {
+   "cells": [
+    {
+     "cell_type": "heading",
+     "level": 1,
+     "metadata": {},
+     "source": [
+      "EFM Fall 2014, Week 5 Assignment"
+     ]
+    },
+    {
+     "cell_type": "heading",
+     "level": 2,
+     "metadata": {},
+     "source": [
+      "1. Instructions"
+     ]
+    },
+    {
+     "cell_type": "markdown",
+     "metadata": {},
+     "source": [
+      "Only one question on this week\u2019s assignment, which will hopefully integrate what you have been doing on the Python assignments until now with the basic Portfolio Theory stuff that you saw this week. Try to do as many parts of this question as you can, though again don\u2019t spend more than one hour or so on this.\n",
+      "\n",
+      "Email your solutions to [efm.uchicago@gmail.com](mailto:efm.uchicago@gmail.com) in a single python file, named **LASTNAME\\_FIRSTNAME.py** or **LASTNAME\\_FIRSTNAME.ipynb**. Also feel free to email us if you have any problems."
+     ]
+    },
+    {
+     "cell_type": "heading",
+     "level": 2,
+     "metadata": {},
+     "source": [
+      "2. The Efficient Frontier with a Sample Portfolio"
+     ]
+    },
+    {
+     "cell_type": "markdown",
+     "metadata": {},
+     "source": [
+      "Before we move to trying to pick an optimal portfolio for the future, let\u2019s first begin by verifying what an optimal portfolio would have looked like in the past:"
+     ]
+    },
+    {
+     "cell_type": "heading",
+     "level": 3,
+     "metadata": {},
+     "source": [
+      "2.1 Setting Up"
+     ]
+    },
+    {
+     "cell_type": "markdown",
+     "metadata": {},
+     "source": [
+      "For this problem we will use data from 2003-2013 for the following equities: Microsoft (MSFT), Apple (AAPL), and Corning (GLW). Go to Quandl and get the data sets for each security with monthly returns."
+     ]
+    },
+    {
+     "cell_type": "code",
+     "collapsed": false,
+     "input": [
+      "## Code to import data here"
+     ],
+     "language": "python",
+     "metadata": {},
+     "outputs": []
+    },
+    {
+     "cell_type": "heading",
+     "level": 3,
+     "metadata": {},
+     "source": [
+      "2.2 Basic Functions"
+     ]
+    },
+    {
+     "cell_type": "markdown",
+     "metadata": {},
+     "source": [
+      "Write a function that returns the mean of an asset, a function that returns the standard deviation of an asset, and a function that returns the covariance of any two assets."
+     ]
+    },
+    {
+     "cell_type": "code",
+     "collapsed": false,
+     "input": [
+      "def mean_return(asset_data):\n",
+      "    pass\n",
+      "\n",
+      "def std_return(asset_data):\n",
+      "    pass\n",
+      "\n",
+      "def cov_return(asset_data, asset_data):\n",
+      "    pass"
+     ],
+     "language": "python",
+     "metadata": {},
+     "outputs": []
+    },
+    {
+     "cell_type": "heading",
+     "level": 3,
+     "metadata": {},
+     "source": [
+      "2.3 More General Functions"
+     ]
+    },
+    {
+     "cell_type": "markdown",
+     "metadata": {},
+     "source": [
+      "Extend the above functions so that they also take in two datetime objects from matplotlib\u2019s dates library, and returns the mean, standard deviation, and covariance of an asset within any given time frame."
+     ]
+    },
+    {
+     "cell_type": "code",
+     "collapsed": false,
+     "input": [
+      "def mean_return(asset_data, start_date, end_date):\n",
+      "    pass\n",
+      "\n",
+      "def std_return(asset_data, start_date, end_date):\n",
+      "    pass\n",
+      "\n",
+      "def cov_return(asset_data, start_date, end_date):\n",
+      "    pass"
+     ],
+     "language": "python",
+     "metadata": {},
+     "outputs": []
+    },
+    {
+     "cell_type": "heading",
+     "level": 3,
+     "metadata": {},
+     "source": [
+      "2.4 Crafting A Portfolio\n"
+     ]
+    },
+    {
+     "cell_type": "markdown",
+     "metadata": {},
+     "source": [
+      "Write a function that takes in: \n",
+      "1. a dictionary of assets and weights for each asset and \n",
+      "2. two datetime objects\n",
+      "\n",
+      "and returns the expected return and standard deviation of that portfolio over the given time period."
+     ]
+    },
+    {
+     "cell_type": "code",
+     "collapsed": false,
+     "input": [
+      "def mean_and_return_of_portfolio(asset_data, asset_weights, \n",
+      "                                 start_date, end_date):\n",
+      "    pass"
+     ],
+     "language": "python",
+     "metadata": {},
+     "outputs": []
+    },
+    {
+     "cell_type": "heading",
+     "level": 3,
+     "metadata": {},
+     "source": [
+      "2.5 Plotting the Efficient Frontier"
+     ]
+    },
+    {
+     "cell_type": "markdown",
+     "metadata": {},
+     "source": [
+      "Now choose 1 out of the 3 possible 2 asset portfolio, and using 0.05 intervals for asset weights, plot each portfolio in the standard deviation-expected return space using matplotlib."
+     ]
+    },
+    {
+     "cell_type": "code",
+     "collapsed": false,
+     "input": [
+      "## Setup and Plotting code here"
+     ],
+     "language": "python",
+     "metadata": {},
+     "outputs": []
+    },
+    {
+     "cell_type": "heading",
+     "level": 3,
+     "metadata": {},
+     "source": [
+      "2.6 Efficient Frontier with More Assets"
+     ]
+    },
+    {
+     "cell_type": "markdown",
+     "metadata": {},
+     "source": [
+      "Now do the same as the above, but do it for a portfolio with all 3 assets."
+     ]
+    },
+    {
+     "cell_type": "code",
+     "collapsed": false,
+     "input": [
+      "## Setup and Plotting code here"
+     ],
+     "language": "python",
+     "metadata": {},
+     "outputs": []
+    },
+    {
+     "cell_type": "heading",
+     "level": 3,
+     "metadata": {},
+     "source": [
+      "2.7 Risk Free Rate and Sharpe Ratio"
+     ]
+    },
+    {
+     "cell_type": "markdown",
+     "metadata": {},
+     "source": [
+      "Now use this 3 month US Treasury series: https://www.quandl.com/WREN/W9-US-3mth-Treasury-Bills as a risk free rate of return for each month, and calculate the Sharpe ratio for each asset as well as for each of your two portfolios above."
+     ]
+    },
+    {
+     "cell_type": "code",
+     "collapsed": false,
+     "input": [
+      "def calc_sharpe(returns_list):\n",
+      "    pass\n",
+      "\n",
+      "## Calculate Sharpe ratio here"
+     ],
+     "language": "python",
+     "metadata": {},
+     "outputs": []
+    }
+   ],
+   "metadata": {}
+  }
+ ]
+}
