@@ -23,7 +23,7 @@ Week 6: CAPM
 
 Week 7: VaR
 
-Week 8: Round-up
+Week 8: Pandas, round-up
 
 =============
 
