@@ -24,3 +24,18 @@ Week 6: CAPM
 Week 7: VaR
 
 Week 8: Round-up
+
+=============
+
+**Winter 2015**: Coming soon
+
+**Summer 2015**: Coming Soon
+
+=============
+
+**Other IPython Notebooks**:
+
+0. [Before we start](http://nbviewer.ipython.org/github/zphang/efm-2014-2015/blob/master/Python%20Notebooks/00.%20Before%20we%20start.ipynb)
+1. [Python Basics](http://nbviewer.ipython.org/github/zphang/efm-2014-2015/blob/master/Python%20Notebooks/01.%20Python%20Basics.ipynb)
+2. [Libraries and Plotting](http://nbviewer.ipython.org/github/zphang/efm-2014-2015/blob/master/Python%20Notebooks/02.%20Libraries%20and%20Plotting.ipynb)
+3. [NumPy and SciPy](http://nbviewer.ipython.org/github/zphang/efm-2014-2015/blob/master/Python%20Notebooks/03.%20NumPy%20and%20SciPy%20basics.ipynb)
