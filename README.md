@@ -27,7 +27,13 @@ Week 8: Pandas, round-up
 
 =============
 
-**Winter 2015**: Coming soon
+**Winter 2015**: 
+
+Week 2: Admin Stuff (Slides not uploaded)
+
+Week 5: Web Scraping [Notes](https://github.com/zphang/efm-2014-2015/blob/master/Winter%20Week%205/WebScraping.pdf)
+
+=============
 
 **Summer 2015**: Coming Soon
 
