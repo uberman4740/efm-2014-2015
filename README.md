@@ -32,6 +32,7 @@ Week 8: Pandas, round-up
 Week 2: Admin Stuff (Slides not uploaded)
 
 Week 5: Web Scraping [Notes](https://github.com/zphang/efm-2014-2015/blob/master/Winter%20Week%205/WebScraping.pdf?raw=true)
+[NBER Example](http://nbviewer.ipython.org/github/zphang/efm-2014-2015/blob/master/Winter%20Week%205/NBER.ipynb) [Time Schedules Example](http://nbviewer.ipython.org/github/zphang/efm-2014-2015/blob/master/Winter%20Week%205/Time%20Schedules.ipynb)
 
 =============
 
