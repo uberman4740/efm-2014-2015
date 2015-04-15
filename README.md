@@ -37,7 +37,12 @@ Week 5: Web Scraping [[Notes](https://github.com/zphang/efm-2014-2015/blob/maste
 
 =============
 
-**Summer 2015**: Coming Soon
+**Spring 2015**:
+
+Meetings: ** Wednesdays 4.30-5.30pm, RY-276**
+
+* Week 3: Admin, Competitions
+* [[Slideshow](http://slideviewer.herokuapp.com/github/zphang/efm-2014-2015/blob/master/Spring%20Week%203/Week%203.ipynb)]
 
 =============
 
