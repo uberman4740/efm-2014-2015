@@ -44,7 +44,7 @@ Meetings: **Wednesdays 4.30-5.30pm, RY-276**
 * Week 3: Admin, Competitions [[Slideshow](http://nbviewer.ipython.org/format/slides/github/zphang/efm-2014-2015/blob/master/Spring%20Week%203/Week%203.ipynb#/)]
 
 * Week 4: BOE Data Cleaning: [[Notebook](http://nbviewer.ipython.org/github/zphang/efm-2014-2015/blob/master/Spring%20Week%204/BOE%20Data%20Preparation.ipynb)]  
-(Save the last spreadsheet of the [[Inflation data](http://www.bankofengland.co.uk/research/Documents/onebank/nop.xlsx)] as **nop.csv** in the same folder first.)
+Save the last spreadsheet of the [[Inflation data](http://www.bankofengland.co.uk/research/Documents/onebank/nop.xlsx)] as **nop.csv** in the same folder first.
 
 
 =============
